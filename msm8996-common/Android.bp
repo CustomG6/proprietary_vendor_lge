@@ -101,6 +101,7 @@ android_app_import {
 }
 
 android_app_import {
+<<<<<<< HEAD
 	name: "VzwOmaTrigger",
 	owner: "lge",
 	apk: "proprietary/priv-app/VzwOmaTrigger/VzwOmaTrigger.apk",
@@ -300,6 +301,11 @@ android_app_import {
 	name: "QtiTelephonyService",
 	owner: "lge",
 	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+=======
+	name: "uceShimService",
+	owner: "lge",
+	apk: "proprietary/app/uceShimService/uceShimService.apk",
+>>>>>>> c8278567... msm8996-common: Kang everything RIL from leeco
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -307,9 +313,15 @@ android_app_import {
 }
 
 android_app_import {
+<<<<<<< HEAD
 	name: "CNEService",
 	owner: "lge",
 	apk: "proprietary/priv-app/CNEService/CNEService.apk",
+=======
+	name: "ims",
+	owner: "lge",
+	apk: "proprietary/priv-app/ims/ims.apk",
+>>>>>>> c8278567... msm8996-common: Kang everything RIL from leeco
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -318,9 +330,15 @@ android_app_import {
 }
 
 android_app_import {
+<<<<<<< HEAD
 	name: "WfdService",
 	owner: "lge",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+=======
+	name: "qcrilmsgtunnel",
+	owner: "lge",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+>>>>>>> c8278567... msm8996-common: Kang everything RIL from leeco
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -329,13 +347,20 @@ android_app_import {
 }
 
 android_app_import {
+<<<<<<< HEAD
 	name: "qcrilmsgtunnel",
 	owner: "lge",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+=======
+	name: "QtiTelephonyService",
+	owner: "lge",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+>>>>>>> c8278567... msm8996-common: Kang everything RIL from leeco
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
+<<<<<<< HEAD
 	privileged: true,
 }
 
@@ -363,3 +388,6 @@ dex_import {
 	jars: ["proprietary/framework/qti-telephony-common.jar"],
 }
 
+=======
+}
+>>>>>>> c8278567... msm8996-common: Kang everything RIL from leeco
